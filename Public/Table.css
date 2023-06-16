@@ -1,0 +1,45 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  thead th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tbody td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

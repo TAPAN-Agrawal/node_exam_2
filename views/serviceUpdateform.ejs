@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Form.css">
+</head>
+<body>
+    <form action="/serviceupdateUser" method="POST" >
+        <input type="hidden" id="id" name="id" value="<%= user.id %>">
+        <div class="formGroup">
+            <label for="name" class="formLabel">Customer Name </label>
+            <input  type="text"  name="customerName" class="formInput"  value="<%= user.customerName %>">
+        </div>
+      
+        <div class="formGroup">
+            <label for="name" class="formLabel">Vehicle Number</label>
+            <input  type="text"  name="vehicleNumber" class="formInput"  value="<%= user.vehicleNumber %>">
+        </div>
+        <div class="formGroup">
+            <label for="name" class="formLabel"> Service Price</label>
+            <input  type="text"  name="servicePrice" class="formInput" value="<%= user.servicePrice %>">
+        </div>
+        <div class="formGroup">
+            <label for="name" class="formLabel">  Payble Amount</label>
+            <input  type="text"  name="payableAmount" class="formInput" value="<%= user.payableAmount %>">
+        </div>
+
+      
+     
+      
+      
+      
+        <button type="submit">serviceUpdate</button>
+      </form>
+</body>
+</html>
+  
